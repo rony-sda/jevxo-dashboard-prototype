@@ -143,8 +143,8 @@ const Shop = () => {
 
       {/* Stats Cards */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-        <Card className="glass-card">
-          <CardContent className="pt-6">
+        <Card>
+          <CardContent className="py-6">
             <div className="flex items-center gap-4">
               <div className="p-3 rounded-xl bg-primary/20">
                 <Package className="h-6 w-6 text-primary" />
@@ -156,8 +156,8 @@ const Shop = () => {
             </div>
           </CardContent>
         </Card>
-        <Card className="glass-card">
-          <CardContent className="pt-6">
+        <Card>
+          <CardContent className="py-6">
             <div className="flex items-center gap-4">
               <div className="p-3 rounded-xl bg-success/20">
                 <ShoppingBag className="h-6 w-6 text-success" />
@@ -169,8 +169,8 @@ const Shop = () => {
             </div>
           </CardContent>
         </Card>
-        <Card className="glass-card">
-          <CardContent className="pt-6">
+        <Card>
+          <CardContent className="py-6">
             <div className="flex items-center gap-4">
               <div className="p-3 rounded-xl bg-info/20">
                 <ShoppingBag className="h-6 w-6 text-info" />
@@ -182,8 +182,8 @@ const Shop = () => {
             </div>
           </CardContent>
         </Card>
-        <Card className="glass-card">
-          <CardContent className="pt-6">
+        <Card>
+          <CardContent className="py-6">
             <div className="flex items-center gap-4">
               <div className="p-3 rounded-xl bg-warning/20">
                 <DollarSign className="h-6 w-6 text-warning" />
@@ -224,7 +224,7 @@ const Shop = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {filteredProducts.map((product) => (
-              <Card key={product.id} className="glass-card">
+              <Card key={product.id}>
                 <CardHeader className="pb-3">
                   <div className="flex items-start justify-between">
                     <div>
@@ -269,7 +269,7 @@ const Shop = () => {
         </TabsContent>
 
         <TabsContent value="orders">
-          <Card className="glass-card">
+          <Card>
             <CardHeader>
               <CardTitle>Recent Orders</CardTitle>
             </CardHeader>

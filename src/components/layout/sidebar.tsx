@@ -127,11 +127,12 @@ const NavItemComponent = ({
   const hasChildren = item.children && item.children.length > 0;
 
   return (
-    <div>
+    <div className="bg-[#090E1A]">
       <div
         className={cn(
-          "nav-item cursor-pointer",
-          isActive && "nav-item-active",
+          "flex items-center gap-3 px-3 py-2.5 rounded-lg text-muted-foreground transition-all duration-200 hover:bg-sidebar-accent hover:text-foreground cursor-pointer",
+          isActive &&
+            "bg-sidebar-accent text-foreground border-l-2 border-primary",
           depth > 0 && "ml-4",
         )}
         onClick={() => (hasChildren ? setIsExpanded(!isExpanded) : null)}

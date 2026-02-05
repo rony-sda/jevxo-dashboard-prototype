@@ -107,8 +107,8 @@ const Clients = () => {
 
       {/* Stats Cards */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-        <Card className="glass-card">
-          <CardContent className="pt-6">
+        <Card>
+          <CardContent className="py-6">
             <div className="flex items-center gap-4">
               <div className="p-3 rounded-xl bg-primary/20">
                 <Users className="h-6 w-6 text-primary" />
@@ -120,8 +120,8 @@ const Clients = () => {
             </div>
           </CardContent>
         </Card>
-        <Card className="glass-card">
-          <CardContent className="pt-6">
+        <Card>
+          <CardContent className="py-6">
             <div className="flex items-center gap-4">
               <div className="p-3 rounded-xl bg-success/20">
                 <TrendingUp className="h-6 w-6 text-success" />
@@ -133,8 +133,8 @@ const Clients = () => {
             </div>
           </CardContent>
         </Card>
-        <Card className="glass-card">
-          <CardContent className="pt-6">
+        <Card>
+          <CardContent className="py-6">
             <div className="flex items-center gap-4">
               <div className="p-3 rounded-xl bg-info/20">
                 <Briefcase className="h-6 w-6 text-info" />
@@ -146,8 +146,8 @@ const Clients = () => {
             </div>
           </CardContent>
         </Card>
-        <Card className="glass-card">
-          <CardContent className="pt-6">
+        <Card>
+          <CardContent className="py-6">
             <div className="flex items-center gap-4">
               <div className="p-3 rounded-xl bg-warning/20">
                 <DollarSign className="h-6 w-6 text-warning" />

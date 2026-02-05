@@ -177,8 +177,8 @@ const Projects = () => {
 
       {/* Stats Cards */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-        <Card className="glass-card">
-          <CardContent className="pt-6">
+        <Card>
+          <CardContent className="py-6">
             <div className="flex items-center gap-4">
               <div className="p-3 rounded-xl bg-info/20">
                 <Briefcase className="h-6 w-6 text-info" />
@@ -190,8 +190,8 @@ const Projects = () => {
             </div>
           </CardContent>
         </Card>
-        <Card className="glass-card">
-          <CardContent className="pt-6">
+        <Card>
+          <CardContent className="py-6">
             <div className="flex items-center gap-4">
               <div className="p-3 rounded-xl bg-success/20">
                 <CheckCircle className="h-6 w-6 text-success" />
@@ -203,8 +203,8 @@ const Projects = () => {
             </div>
           </CardContent>
         </Card>
-        <Card className="glass-card">
-          <CardContent className="pt-6">
+        <Card>
+          <CardContent className="py-6">
             <div className="flex items-center gap-4">
               <div className="p-3 rounded-xl bg-warning/20">
                 <PauseCircle className="h-6 w-6 text-warning" />
@@ -216,8 +216,8 @@ const Projects = () => {
             </div>
           </CardContent>
         </Card>
-        <Card className="glass-card">
-          <CardContent className="pt-6">
+        <Card>
+          <CardContent className="py-6">
             <div className="flex items-center gap-4">
               <div className="p-3 rounded-xl bg-primary/20">
                 <Clock className="h-6 w-6 text-primary" />

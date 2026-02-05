@@ -96,8 +96,8 @@ const RoleManagement = () => {
       {/* Role Overview Cards */}
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-4">
         {roles.map((role) => (
-          <Card key={role} className="glass-card">
-            <CardContent className="pt-6">
+          <Card key={role}>
+            <CardContent className="py-6">
               <div className="flex flex-col items-center text-center">
                 <div className="p-3 rounded-xl bg-primary/20 mb-3">
                   {roleIcons[role]}
@@ -125,7 +125,7 @@ const RoleManagement = () => {
 
         {roles.map((role) => (
           <TabsContent key={role} value={role}>
-            <Card className="glass-card">
+            <Card>
               <CardHeader>
                 <div className="flex items-center justify-between">
                   <div>

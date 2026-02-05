@@ -114,8 +114,8 @@ const Reports = () => {
 
       {/* Summary Cards */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-        <Card className="glass-card">
-          <CardContent className="pt-6">
+        <Card>
+          <CardContent className="py-6">
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-sm text-muted-foreground">Total Revenue</p>
@@ -133,8 +133,8 @@ const Reports = () => {
             </div>
           </CardContent>
         </Card>
-        <Card className="glass-card">
-          <CardContent className="pt-6">
+        <Card>
+          <CardContent className="py-6">
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-sm text-muted-foreground">Active Clients</p>
@@ -150,8 +150,8 @@ const Reports = () => {
             </div>
           </CardContent>
         </Card>
-        <Card className="glass-card">
-          <CardContent className="pt-6">
+        <Card>
+          <CardContent className="py-6">
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-sm text-muted-foreground">Active Projects</p>
@@ -167,8 +167,8 @@ const Reports = () => {
             </div>
           </CardContent>
         </Card>
-        <Card className="glass-card">
-          <CardContent className="pt-6">
+        <Card>
+          <CardContent className="py-6">
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-sm text-muted-foreground">Open Tickets</p>
@@ -196,7 +196,7 @@ const Reports = () => {
 
         <TabsContent value="financial" className="space-y-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-            <Card className="glass-card">
+            <Card>
               <CardHeader>
                 <CardTitle>Revenue vs Expenses</CardTitle>
               </CardHeader>
@@ -236,7 +236,7 @@ const Reports = () => {
               </CardContent>
             </Card>
 
-            <Card className="glass-card">
+            <Card>
               <CardHeader>
                 <CardTitle>Profit Trend</CardTitle>
               </CardHeader>
@@ -276,7 +276,7 @@ const Reports = () => {
 
         <TabsContent value="projects" className="space-y-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-            <Card className="glass-card">
+            <Card>
               <CardHeader>
                 <CardTitle>Project Status Distribution</CardTitle>
               </CardHeader>
@@ -323,7 +323,7 @@ const Reports = () => {
               </CardContent>
             </Card>
 
-            <Card className="glass-card">
+            <Card>
               <CardHeader>
                 <CardTitle>Project Completion Rate</CardTitle>
               </CardHeader>
@@ -352,7 +352,7 @@ const Reports = () => {
         </TabsContent>
 
         <TabsContent value="clients" className="space-y-4">
-          <Card className="glass-card">
+          <Card>
             <CardHeader>
               <CardTitle>Client Growth</CardTitle>
             </CardHeader>
@@ -391,7 +391,7 @@ const Reports = () => {
         </TabsContent>
 
         <TabsContent value="support" className="space-y-4">
-          <Card className="glass-card">
+          <Card>
             <CardHeader>
               <CardTitle>Ticket Trends</CardTitle>
             </CardHeader>

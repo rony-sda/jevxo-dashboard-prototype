@@ -128,8 +128,8 @@ const CMSPages = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-        <Card className="glass-card">
-          <CardContent className="pt-6">
+        <Card>
+          <CardContent className="py-6">
             <div className="flex items-center gap-4">
               <div className="p-3 rounded-xl bg-primary/20">
                 <FileText className="h-6 w-6 text-primary" />
@@ -141,8 +141,8 @@ const CMSPages = () => {
             </div>
           </CardContent>
         </Card>
-        <Card className="glass-card">
-          <CardContent className="pt-6">
+        <Card>
+          <CardContent className="py-6">
             <div className="flex items-center gap-4">
               <div className="p-3 rounded-xl bg-success/20">
                 <Globe className="h-6 w-6 text-success" />
@@ -154,8 +154,8 @@ const CMSPages = () => {
             </div>
           </CardContent>
         </Card>
-        <Card className="glass-card">
-          <CardContent className="pt-6">
+        <Card>
+          <CardContent className="py-6">
             <div className="flex items-center gap-4">
               <div className="p-3 rounded-xl bg-warning/20">
                 <Edit3 className="h-6 w-6 text-warning" />
@@ -167,8 +167,8 @@ const CMSPages = () => {
             </div>
           </CardContent>
         </Card>
-        <Card className="glass-card">
-          <CardContent className="pt-6">
+        <Card>
+          <CardContent className="py-6">
             <div className="flex items-center gap-4">
               <div className="p-3 rounded-xl bg-muted">
                 <Archive className="h-6 w-6 text-muted-foreground" />

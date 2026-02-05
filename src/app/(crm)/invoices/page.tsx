@@ -173,8 +173,8 @@ const Invoices = () => {
 
       {/* Stats Cards */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-        <Card className="glass-card">
-          <CardContent className="pt-6">
+        <Card>
+          <CardContent className="py-6">
             <div className="flex items-center gap-4">
               <div className="p-3 rounded-xl bg-primary/20">
                 <Receipt className="h-6 w-6 text-primary" />
@@ -188,8 +188,8 @@ const Invoices = () => {
             </div>
           </CardContent>
         </Card>
-        <Card className="glass-card">
-          <CardContent className="pt-6">
+        <Card>
+          <CardContent className="py-6">
             <div className="flex items-center gap-4">
               <div className="p-3 rounded-xl bg-success/20">
                 <DollarSign className="h-6 w-6 text-success" />
@@ -203,8 +203,8 @@ const Invoices = () => {
             </div>
           </CardContent>
         </Card>
-        <Card className="glass-card">
-          <CardContent className="pt-6">
+        <Card>
+          <CardContent className="py-6">
             <div className="flex items-center gap-4">
               <div className="p-3 rounded-xl bg-warning/20">
                 <Clock className="h-6 w-6 text-warning" />
@@ -218,8 +218,8 @@ const Invoices = () => {
             </div>
           </CardContent>
         </Card>
-        <Card className="glass-card">
-          <CardContent className="pt-6">
+        <Card>
+          <CardContent className="py-6">
             <div className="flex items-center gap-4">
               <div className="p-3 rounded-xl bg-destructive/20">
                 <AlertTriangle className="h-6 w-6 text-destructive" />
