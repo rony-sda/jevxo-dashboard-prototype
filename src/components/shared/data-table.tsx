@@ -85,7 +85,7 @@ export function DataTable<T extends { id: string }>({
   };
 
   return (
-    <Card className="glass-card">
+    <Card>
       <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-4">
         <CardTitle className="text-xl font-semibold">{title}</CardTitle>
         <div className="flex items-center gap-3">
@@ -145,7 +145,7 @@ export function DataTable<T extends { id: string }>({
               sortedData.map((item) => (
                 <TableRow key={item.id}>
                   {columns.map((col) => (
-                    <TableCell key={String(col.key)}>
+                    <TableCell key={String(col.key)} className="py-6">
                       {col.render ? col.render(item) : getValue(item, col.key)}
                     </TableCell>
                   ))}

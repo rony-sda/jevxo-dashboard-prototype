@@ -204,7 +204,7 @@ const AIAssistant = () => {
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 h-[calc(100%-5rem)]">
         {/* Quick Prompts Sidebar */}
         <div className="lg:col-span-1 space-y-4">
-          <Card className="glass-card">
+          <Card>
             <CardHeader className="pb-3">
               <CardTitle className="text-base flex items-center gap-2">
                 <Sparkles className="h-4 w-4 text-primary" />
@@ -226,7 +226,7 @@ const AIAssistant = () => {
             </CardContent>
           </Card>
 
-          <Card className="glass-card">
+          <Card>
             <CardHeader className="pb-3">
               <CardTitle className="text-base">Capabilities</CardTitle>
             </CardHeader>
@@ -244,7 +244,7 @@ const AIAssistant = () => {
 
         {/* Chat Area */}
         <div className="lg:col-span-3 flex flex-col">
-          <Card className="glass-card flex-1 flex flex-col">
+          <Card className="flex-1 flex flex-col">
             <CardHeader className="pb-3 border-b border-border">
               <CardTitle className="text-base flex items-center gap-2">
                 <Bot className="h-5 w-5 text-primary" />

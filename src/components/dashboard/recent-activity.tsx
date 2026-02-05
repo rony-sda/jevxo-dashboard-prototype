@@ -80,7 +80,7 @@ const getActivityStyles = (type: Activity["type"]) => {
 
 export const RecentActivity = () => {
   return (
-    <div className="glass-card p-6">
+    <div className="p-6 bg-[#0B111E]">
       <div className="flex items-center justify-between mb-6">
         <h2 className="section-title">Recent Activity</h2>
         <button className="text-sm text-primary hover:text-primary/80 transition-colors">

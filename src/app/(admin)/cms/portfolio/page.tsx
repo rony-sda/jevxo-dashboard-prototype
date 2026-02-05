@@ -208,7 +208,7 @@ const CMSPortfolio = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {filteredItems.map((item) => (
-          <Card key={item.id} className="glass-card overflow-hidden">
+          <Card key={item.id} className="overflow-hidden">
             <div className="h-40 bg-gradient-to-br from-secondary to-muted flex items-center justify-center">
               <FolderKanban className="h-12 w-12 text-muted-foreground/30" />
             </div>

@@ -224,7 +224,7 @@ const Partners = () => {
       </div>
 
       {/* Business Logic Explanation */}
-      <Card className="glass-card border-info/30">
+      <Card className="border-info/30">
         <CardContent className="py-6">
           <div className="flex items-start gap-4">
             <div className="p-2 rounded-lg bg-info/20">

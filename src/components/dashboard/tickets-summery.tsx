@@ -91,7 +91,7 @@ const getPriorityStyles = (priority: RecentTicket["priority"]) => {
 
 export const TicketsSummary = () => {
   return (
-    <div className="glass-card p-6">
+    <div className="p-6 bg-[#0B111E]">
       <h2 className="section-title mb-6">Support Tickets</h2>
 
       {/* Stats Grid */}

@@ -81,7 +81,7 @@ const SystemSettings = () => {
         </TabsList>
 
         <TabsContent value="general">
-          <Card className="glass-card">
+          <Card>
             <CardHeader>
               <CardTitle>General Settings</CardTitle>
               <CardDescription>
@@ -146,7 +146,7 @@ const SystemSettings = () => {
         </TabsContent>
 
         <TabsContent value="seo">
-          <Card className="glass-card">
+          <Card>
             <CardHeader>
               <CardTitle>SEO Settings</CardTitle>
               <CardDescription>
@@ -202,7 +202,7 @@ const SystemSettings = () => {
         </TabsContent>
 
         <TabsContent value="payments">
-          <Card className="glass-card">
+          <Card>
             <CardHeader>
               <CardTitle>Payment Settings</CardTitle>
               <CardDescription>
@@ -258,7 +258,7 @@ const SystemSettings = () => {
         </TabsContent>
 
         <TabsContent value="ai">
-          <Card className="glass-card">
+          <Card>
             <CardHeader>
               <CardTitle>AI Integration</CardTitle>
               <CardDescription>

@@ -57,7 +57,7 @@ const partners: Partner[] = [
 
 export const PartnerPayroll = () => {
   return (
-    <div className="glass-card p-6">
+    <div className="p-6 bg-[#0B111E]">
       <div className="flex items-center justify-between mb-6">
         <div>
           <h2 className="section-title">Partner Payroll</h2>
